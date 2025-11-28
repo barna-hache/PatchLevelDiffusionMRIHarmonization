@@ -24,7 +24,7 @@ Before launching the training, you must preprocess all volumes using the followi
 Update the paths for logs and checkpoint saving directly in the notebook before running the training.
 
 ## 3. Inference Script
-To run the inference script on your preprocessed images, you can use the following model weights: **path_to_drive**.
+To run the inference script on your preprocessed images, you can use the following model weights: **[path_to_drive](https://drive.google.com/file/d/1pn0ky3tjnjo0mI8do3WrNOAfSFdo5Bum/view?usp=drive_link)**.
 
 You must specify the following parameters:
 
