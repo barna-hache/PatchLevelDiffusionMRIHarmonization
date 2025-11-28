@@ -2,7 +2,7 @@
 
 This is the code for the paper "Patch-level Anatomy- and Style-Guided 3D Diffusion for Multi-site T1 MRI Harmonization" submitted to MIDL 2026.
 
-[figure_overview.pdf](https://github.com/user-attachments/files/23819860/figure_overview.pdf)
+![figure_overview_page-0001](https://github.com/user-attachments/assets/c76ce139-3744-49ac-b84f-a2bd0d45ce06)
 
 ## 1. Datasets
 The list of the MRI volumes used to train and test the model during training are available in the 'Train Dataset' and 'Test Dataset' files.
@@ -22,5 +22,7 @@ Change the path for the logs and to save your checkpoint directly in the noteboo
 To run the inference script on your preprocessed images, you can use the following model weights : path_to_drive.
 You need to specify the following parameter:
 --lamdba: Guidance lambda value (default: 0.8)
+
 --brain_folder: Folder with the preprocessed volumes to harmonize
+
 --save_dir: Folder to save harmonized volumes
