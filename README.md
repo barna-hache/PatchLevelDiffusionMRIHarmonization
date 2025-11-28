@@ -11,8 +11,6 @@ The lists of MRI volumes used for training and testing are provided in the **Tra
 
 All experiments were conducted on the **SRPBS dataset**.
 
----
-
 ## 2. Training Script
 Training is performed using a Jupyter notebook.  
 Before launching the training, you must preprocess all volumes using the following steps:
@@ -24,8 +22,6 @@ Before launching the training, you must preprocess all volumes using the followi
 5. Median-based intensity normalization  
 
 Update the paths for logs and checkpoint saving directly in the notebook before running the training.
-
----
 
 ## 3. Inference Script
 To run the inference script on your preprocessed images, you can use the following model weights: **path_to_drive**.
