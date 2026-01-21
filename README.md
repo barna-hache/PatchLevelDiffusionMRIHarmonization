@@ -2,6 +2,10 @@
 
 This repository contains the official code for the paper **“Patch-level Anatomy- and Style-Guided 3D Diffusion for Multi-site T1 MRI Harmonization”**, submitted to **MIDL 2026**.
 
+This method enables harmonization of T1 MRI volumes from previously unseen acquisition sites at inference time by mapping them toward a target site observed during training.
+Generalization to unseen sites is achieved through anatomical conditioning maps, which are site-agnostic and can be extracted from any brain MRI.
+In contrast, site-specific information is encoded via a learned embedding, which requires the target site to be part of the training set (set on 'aibl' by default ).
+
 ![figure_overview_page-0001](https://github.com/user-attachments/assets/c76ce139-3744-49ac-b84f-a2bd0d45ce06)
 
 ---
@@ -30,4 +34,5 @@ You must specify the following parameters:
 
 - `--lamdba` Guidance lambda value (default: 0.8)  
 - `--brain_folder` Folder containing the preprocessed volumes to harmonize  
-- `--save_dir` Folder where the harmonized volumes will be saved  
+- `--save_dir` Folder where the harmonized volumes will be saved
+- The target site is by default 'aibl' since is one of the training site.
