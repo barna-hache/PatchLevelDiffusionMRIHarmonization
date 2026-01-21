@@ -457,7 +457,7 @@ class UNet3DConditionModel_maison(nn.Module):
 # ----------------------
 
 parser = argparse.ArgumentParser(description="Run diffusion script with custom lambda guidance.")
-parser.add_argument("--lamdba", type=float, default=0.8, help="Guidance lambda value (default: 0.8)")
+parser.add_argument("--lamdba", type=float, default=0.6, help="Guidance lambda value (default: 0.8)")
 parser.add_argument("--brain_folder", type=str, default="/path/to/input", help="Folder with volumes to harmonize")
 parser.add_argument("--save_dir", type=str, default="/path/to/output", help="Folder to save harmonized volumes")
 args = parser.parse_args()
