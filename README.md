@@ -29,7 +29,7 @@ Update the paths for logs and checkpoint saving directly in the notebook before 
 
 ## 3. Inference Script
 To run the inference script on your preprocessed images, you can use the following model weights: **[model_weight_ckpt_(gg drive link)](https://drive.google.com/file/d/1pn0ky3tjnjo0mI8do3WrNOAfSFdo5Bum/view?usp=drive_link)**.
-Then, to use the inference script, juste paste the full path to the downloaded checkpoint in `checkpoint_path = "/path/to/checkpoint.pt"`
+Then, to use the inference script, juste paste the full path to the downloaded checkpoint in `checkpoint_path =  "/path/to/checkpoint.pt"` (line 473 of the inference python script)
 
 You must specify the following parameters:
 
