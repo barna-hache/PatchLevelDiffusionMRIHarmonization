@@ -32,7 +32,7 @@ To run the inference script on your preprocessed images, you can use the followi
 
 You must specify the following parameters:
 
-- `--lamdba` Guidance lambda value (default: 0.8)  
+- `--lamdba` Guidance lambda value (default: 0.6)  
 - `--brain_folder` Folder containing the preprocessed volumes to harmonize  
 - `--save_dir` Folder where the harmonized volumes will be saved
 - The target site is by default 'aibl' since is one of the training site.
