@@ -582,7 +582,7 @@ for path_img in tqdm(path_img_list):
 
                             volume_in = torch.cat([gaussian_noise, gaussian_noise], dim=0)
                             anatomy_in = torch.cat([patch_anat, patch_anat], dim=0)
-                            coarse_in = torch.cat([patch_anat, patch_anat], dim=0)
+                            coarse_in = torch.cat([anat_coarse, anat_coarse], dim=0)
 
                             model_input_eval = torch.cat([volume_in, anatomy_in, coarse_in], dim=1)
                             emb_in = torch.cat([uncond_label_embedding, cond_label_embedding], dim=0)
